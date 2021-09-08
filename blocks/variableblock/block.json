@@ -1,0 +1,31 @@
+{
+	"apiVersion": 2,
+	"name": "calc-block/variableblock",
+	"version": "0.1.0",
+	"title": "Variable Block",
+	"parent": ["calc-block/calcblock"],
+	"category": "widgets",
+	"icon": "info",
+	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"variableName": {
+			"type": "string",
+			"source": "text",
+			"selector": ".variable-name",
+			"default": ""
+		},
+		"testValue": {
+			"type": "integer",
+			"source": "text",
+			"selector": ".test-value",
+			"default": 0
+		}
+	},
+	"textdomain": "variableblock",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
