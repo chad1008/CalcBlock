@@ -23,7 +23,9 @@
 	"homepage": "https://github.com/chad1008/CalcBlock#readme",
 	"devDependencies": {
 		"@wordpress/prettier-config": "^1.1.1",
-		"prettier": "npm:wp-prettier@^2.2.1-beta-1"
+		"prettier": "npm:wp-prettier@^2.2.1-beta-1",
+		"@calcblock/calcblock": "file:./blocks/calcblock",
+		"@calcblock/variableblock": "file:./blocks/variable"
 	},
 	"prettier": "@wordpress/prettier-config"
 }
